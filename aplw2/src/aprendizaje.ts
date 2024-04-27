@@ -29,4 +29,10 @@ const cursos: Icurso[] = [
     }
     // Puedes agregar más cursos aquí si lo deseas
 ];
-export { cursos }
+
+function obtenerCursoPorId(cursos: Icurso[], id: number, callback: (curso: Icurso | null) => void) {
+    const curso = cursos.find(curso => curso.id === id);
+    callback(curso || null);
+}
+
+export { cursos, obtenerCursoPorId };
