@@ -48,4 +48,4 @@ import { consultarAprendizajes } from "./funciones practica2/consultaraprendizaj
 
 // Crear una función CONSULTAR que le permita mostrar todos los elementos de su entidad transaccional y los atributos principales de sus entidades maestras relacionadas.
 consultarAprendizajes();
-console.log('hola');
+console.log('h asdadola');
